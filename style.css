@@ -292,3 +292,37 @@ body {
   background: rgba(0,0,0,0.5);
   padding: 20px;
 }
+
+.event-day {
+  margin-bottom: 20px;
+}
+
+.event-date {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 5px;
+}
+
+.event-day ul {
+  list-style: none;
+  padding: 0;
+}
+
+.event-day li {
+  display: flex;
+  gap: 15px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.time {
+  width: 110px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.link-banner {
+  text-align: center;  /* ←これ追加 */
+}
